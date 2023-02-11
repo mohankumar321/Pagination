@@ -1,0 +1,74 @@
+.container{
+    width: 100;
+    height: 100vh;
+    background:linear-gradient(45deg, #410358,#4700bc) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  .pagination{
+    display:flex;
+    align-items: center;
+    background: #fff;
+    padding:10px 40px;
+    border-radius: 6px;
+  
+  }
+  ul li{
+    display: inline-block;
+    margin: 0 px;
+    background: rgb(230, 227, 238);
+    width: 45px;
+    height: 45px; 
+    border-radius: 5px;
+    text-align: center;
+    font-size: 22px;
+    font-weight:500 ;
+    line-height: 45px;
+    cursor: pointer;
+    margin: 8px;
+  }
+  .btn1, .btn2{
+    display: inline-flex;
+    border: none;
+    font-size: 22px;
+    font-weight :500;
+    cursor: pointer;
+    color: rgb(42, 20, 129);
+    align-items: center;
+   background:transparent; 
+   outline: none;
+   border: none;
+  
+  
+  
+  }
+  .arrow{
+    background-color: rgb(95, 227, 242);
+  margin: 10px;
+  }
+  .arrow:hover{
+    background-color: rgb(82, 20, 175);
+    color: aliceblue;
+  }
+  
+  
+  .link:hover{
+    background: linear-gradient(45deg, #410358,#4700bc) ;
+    color: aliceblue;
+  }
+  .link:active{
+  background: #4700bc;
+  }
+  .btn2:hover{
+    background:linear-gradient(45deg, #410358,#4700bc) ;
+    color: aliceblue;
+   font-style: oblique;
+  }
+  .btn1:hover{
+    background:linear-gradient(45deg, #410358,#4700bc) ;
+      color: aliceblue;
+    font-style: oblique;
+   
+  }
